@@ -1,0 +1,6 @@
+< appears: 117 times 
+> appears: 117 times 
+newline appears: 109 times 
+e appears: 218 times 
+<!-- appears: 5 times 
+--> appears: 5 times

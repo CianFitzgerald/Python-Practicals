@@ -1,0 +1,24 @@
+Q1.
+Non Recursive function: 
+Number entered :5,10,50,100,1000,5000,10000
+Time until output in seconds:
+0.00015
+0.00020
+0.00022
+0.00057
+0.00086
+0.01225
+0.05239
+
+Recursive function:
+Number entered :5,10,50,100,1000,5000,10000
+Time until output in seconds:
+0.00016
+0.00016
+0.00020
+0.00033
+0.00450
+at 5000 we reach a maximum depth recursion error.
+at 10,000 we reach a maximum depth recursion error.
+
+From this experimentation we can see that both methods are quite similar in timing when the input is around 1000. However the recursive function has a maximum recursion depth which I found to be around 3000. Both the non-recursive function and recursive can vary in processing time, however we can see that as the input is increased the processing time increases marginally. The recursive function can only reach  maximum input, while the non-recursive function can produce an output for very large numbers (although it may take a while to calculate!)
